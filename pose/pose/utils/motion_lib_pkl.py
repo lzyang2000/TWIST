@@ -2,7 +2,7 @@ import os, pickle, yaml
 import logging
 
 import torch
-
+import pdb
 from pose.utils.torch_utils import quat_diff, quat_to_exp_map, slerp
 from tqdm import tqdm
 logger = logging.getLogger(__name__)
@@ -57,7 +57,6 @@ class MotionLib:
                     fps = motion_data["fps"]
                     curr_weight = motion_weights[i]
                     dt = 1.0 / fps
-                    
                     root_pos = torch.tensor(motion_data["root_pos"], dtype=torch.float, device=self._device)
                     root_rot = torch.tensor(motion_data["root_rot"], dtype=torch.float, device=self._device)
                     dof_pos = torch.tensor(motion_data["dof_pos"], dtype=torch.float, device=self._device)

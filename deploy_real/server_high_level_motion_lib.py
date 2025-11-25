@@ -60,7 +60,9 @@ def build_mimic_obs(
         dof_pos_with_wrist = torch.zeros(25, device=device).reshape(1, 1, 25)
         wrist_ids = [19, 24]
         other_ids = [f for f in range(25) if f not in wrist_ids]
-        dof_pos_with_wrist[..., other_ids] = dof_pos
+        wrist_ids_gmr = [19,20,21, 26,27,28]
+        other_ids_gmr = [f for f in range(29) if f not in wrist_ids_gmr]
+        dof_pos_with_wrist[..., other_ids] = dof_pos[..., other_ids_gmr]
         dof_pos = dof_pos_with_wrist
         
     mimic_obs_buf = torch.cat((
@@ -129,7 +131,7 @@ def main(args, xml_file, robot_base):
         root_ang_vel_list = []
         
     try:
-        for t_step in range(num_steps):
+        for t_step in range(num_steps - 1):
             t0 = time.time()
 
             # Build a mimic obs from the motion library

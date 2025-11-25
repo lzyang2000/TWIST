@@ -1,4 +1,4 @@
-root_path: /home/yangl/twist/track_dataset/twist_motion_dataset
+root_path: /home/yangl/twist/track_dataset/twist_motion_dataset_aug_tennis
 motions:
 - file: mocap/0.pkl
   weight: 100.0
@@ -45403,5 +45403,438 @@ motions:
   weight: 1.0
   description: general movement
 - file: omomo/sub11_clothesstand_011.pkl
+  weight: 1.0
+  description: general movement
+
+- file: tennis/results_1000_1118.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_10022_10134.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_10134_10228.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_10228_10320.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_10320_10392.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_10611_10703.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_10703_10793.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_10793_10892.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_10892_10985.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_10985_11086.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_11086_11176.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1118_1206.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1206_1304.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1222_1329.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1304_1420.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1329_1431.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1420_1514.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1431_1538.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1514_1599.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1538_1658.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1599_1718.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1658_1741.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1718_1815.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1741_1867.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1815_1907.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1867_1977.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1907_1988.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1977_2087.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_1988_2087.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2087_2171.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2087_2223.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2171_2271.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2223_2322.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2271_2361.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2322_2416.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2361_2441.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2416_2500.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2441_2528.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2500_2580.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2528_2630.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2580_2691.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2630_2724.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2724_2788.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_272_367.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2788_2890.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2890_2971.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2952_3063.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_2971_3064.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_3063_3147.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_3064_3157.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_3147_3280.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_3157_3248.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_3248_3335.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_3280_3399.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_3335_3411.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_3399_3486.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_3411_3534.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_3486_3574.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_3574_3687.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_3687_3763.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_3763_3885.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_3885_3968.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_390_393.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_393_588.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_3968_4077.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4077_4164.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4152_4270.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4164_4269.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4269_4356.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4270_4366.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4366_4451.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4451_4551.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4530_4630.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4551_4646.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4630_4733.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4646_4732.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4732_4821.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4821_4907.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4907_4992.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4980_5065.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_4992_5088.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_5088_5171.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_5171_5250.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_5193_5297.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_5250_5354.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_5297_5400.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_5354_5453.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_5400_5494.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_5494_5565.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_5552_5670.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_5565_5660.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_5660_5744.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_5670_5767.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_5767_5869.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_5869_5967.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_588_679.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_5967_6053.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_6053_6142.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_6142_6252.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_6252_6344.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_6272_6810.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_6344_6431.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_6431_6504.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_6504_6603.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_6533_6620.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_6603_6691.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_6691_6776.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_6776_6868.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_679_760.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_6810_6917.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_6868_6964.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_6917_7003.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_6964_7058.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_7003_7094.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_7058_7138.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_7094_7210.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_7138_7225.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_7210_7293.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_7225_7316.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_7293_7400.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_7316_7399.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_7399_7513.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_7510_7600.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_7513_7593.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_7600_7705.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_7705_7799.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_8164_8240.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_8169_8278.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_8240_8357.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_8278_8363.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_8357_8440.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_8440_8555.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_8555_8647.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_8623_8709.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_8647_8741.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_8709_8802.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_8802_8897.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_880_1000.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_8897_8998.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_8998_9074.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_9074_9184.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_9373_9471.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_9471_9558.pkl
+  weight: 1.0
+  description: general movement
+- file: tennis/results_9558_9673.pkl
   weight: 1.0
   description: general movement
